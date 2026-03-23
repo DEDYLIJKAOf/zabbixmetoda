@@ -18,12 +18,20 @@ IP:
 -  sudo chmod a+r /etc/apt/keyrings/docker.asc
 ### Добавьте репозиторий в Apt sources:
 -  sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
--  Types: deb
--  URIs: https://download.docker.com/linux/debian
--  Suites: $(. /etc/os-release && echo "$VERSION_CODENAME")
--  Components: stable
--  Signed-By: /etc/apt/keyrings/docker.asc
--  EOF
+
+  Types: deb
+
+  URIs: https://download.docker.com/linux/debian
+
+  
+  Suites: $(. /etc/os-release && echo "$VERSION_CODENAME")
+
+  
+  Components: stable
+
+  Signed-By: /etc/apt/keyrings/docker.asc
+  
+  EOF
 -  apt update
 ### Установка и проверка пакетов Docker.
 -  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
