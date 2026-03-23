@@ -1,0 +1,2 @@
+# zabbixmetoda
+Методичка по Zabbix
