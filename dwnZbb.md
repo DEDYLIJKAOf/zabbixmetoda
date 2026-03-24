@@ -48,10 +48,25 @@ IP:
 -  cd /apps/zabbix
 -  nano docker-compose.yaml
 
+  Теперь нужно заполнить .yaml файл, примерный конфиг показан на рисунках ниже
+
   <img width="751" height="596" alt="image" src="https://github.com/user-attachments/assets/8caa7224-2a17-420c-bfb5-f5fdfd0a096c" />
 
   <img width="804" height="624" alt="image" src="https://github.com/user-attachments/assets/3729e506-4c76-4423-a1aa-1dbbf7ad180b" />
 
--  nano .dev (В той же директории)
+-  nano .env (В той же директории создаете файл). После заполения файла нужно прописать "docker compose up -d" чтобы запустить контейнеры
 
   <img width="777" height="634" alt="image" src="https://github.com/user-attachments/assets/65d9b58f-7c31-49cc-b14a-376fc95bb973" />
+
+  После этого заходите на клиента, либо на любую машину с графическим интерфейсом и в строке браузера вводите ip сервера, где находится Zabbix и через двоеточие вводите порт (Пример: 192.168.10.2:8080). После всех действий вас перекидывает в интерфейс Zabbix
+
+  <img width="1291" height="779" alt="image" src="https://github.com/user-attachments/assets/6751eda7-a51b-44e1-8424-927744ee55e5" />
+
+  Стандартный пароль для входа: Admin/zabbix
+
+  <img width="1680" height="899" alt="image" src="https://github.com/user-attachments/assets/84313e28-9b17-49f5-b7b6-48c318a35a79" />
+  
+  ## Примечания 
+  Если у вас перестала работать вебка, нужно зайти в директорию и прописать команду "docker compose restart", это перезагрузит ваши контейнеры, если ошибка не ушла, то стоит обратиться к логам, иногда контейнеры запускаются не сразу
+  
+  Если по каким-то причина docker не хочет пулить, то уберите флаг -d, тогда весь процесс запуска контейнеров должен выводиться. Обычно ошибка в самих .yaml файлах. лишние пробелы, не те версии и тому подобное
