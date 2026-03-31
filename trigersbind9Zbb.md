@@ -104,7 +104,7 @@ esac
 Перезапустите агента Zabbix:
 
 -  systemctl restart zabbix-agent
-###Hастройка шаблона в Zabbix
+### Шаг 3: Hастройка шаблона в Zabbix
 Перейдите в Data Collection → Templates, создайте новый шаблон (например, "Custom Bind9").
 
 Создайте Item (Элемент данных):
