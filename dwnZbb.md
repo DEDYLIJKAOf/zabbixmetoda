@@ -50,13 +50,9 @@ IP:
 
   Теперь нужно заполнить .yaml файл, примерный конфиг показан на рисунках ниже
 
-  <img width="751" height="596" alt="image" src="https://github.com/user-attachments/assets/8caa7224-2a17-420c-bfb5-f5fdfd0a096c" />
-
-  <img width="804" height="624" alt="image" src="https://github.com/user-attachments/assets/3729e506-4c76-4423-a1aa-1dbbf7ad180b" />
+  [<img width="751" height="596" alt="image" src="https://github.com/user-attachments/assets/8caa7224-2a17-420c-bfb5-f5fdfd0a096c" />](https://github.com/DEDYLIJKAOf/remotedocker/tree/main)
 
 -  nano .env (В той же директории создаете файл). После заполения файла нужно прописать "docker compose up -d" чтобы запустить контейнеры
-
-  <img width="777" height="634" alt="image" src="https://github.com/user-attachments/assets/65d9b58f-7c31-49cc-b14a-376fc95bb973" />
 
   После этого заходите на клиента, либо на любую машину с графическим интерфейсом и в строке браузера вводите ip сервера, где находится Zabbix и через двоеточие вводите порт (Пример: 192.168.10.2:8080). После всех действий вас перекидывает в интерфейс Zabbix
 
