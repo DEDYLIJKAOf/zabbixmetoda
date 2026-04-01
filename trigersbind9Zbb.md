@@ -122,7 +122,7 @@ Cоздание триггеров
 
 Высветилась наша проблема
 
-## Тригер Аномально много NXDOMAIN (Warning)
+## Триггер Аномально много NXDOMAIN (Warning)
 Для начала нужно добавить item
 
 <img width="1049" height="688" alt="image" src="https://github.com/user-attachments/assets/4cf0f113-c577-4c2f-9b12-2e31e393a6c1" />
@@ -130,5 +130,16 @@ Cоздание триггеров
 После этого пишeм trigger
 
 <img width="1048" height="697" alt="image" src="https://github.com/user-attachments/assets/6b1311b6-d00e-4803-b8b4-1f3c43808531" />
+
+## Триггер много ошибок SERVFAIL (High)
+
+Прописываем item
+
+<img width="1048" height="693" alt="image" src="https://github.com/user-attachments/assets/d8e3be71-eab1-4d52-af38-0a252f6f7a80" />
+
+Прописываем trigger
+
+<img width="1049" height="697" alt="image" src="https://github.com/user-attachments/assets/231837ca-88c2-48d6-9d64-0025deeac25a" />
+
 
 
