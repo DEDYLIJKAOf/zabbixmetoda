@@ -50,7 +50,7 @@ IP:
 
   Теперь нужно заполнить .yaml файл, примерный конфиг показан на рисунках ниже
 
-  [<img width="751" height="596" alt="image" src="https://github.com/user-attachments/assets/8caa7224-2a17-420c-bfb5-f5fdfd0a096c" />](https://github.com/DEDYLIJKAOf/remotedocker/tree/main)
+https://github.com/DEDYLIJKAOf/remotedocker/tree/main
 
 -  nano .env (В той же директории создаете файл). После заполения файла нужно прописать "docker compose up -d" чтобы запустить контейнеры
 
