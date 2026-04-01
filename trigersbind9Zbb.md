@@ -121,3 +121,14 @@ Cоздание триггеров
 <img width="990" height="109" alt="image" src="https://github.com/user-attachments/assets/4f44e0ee-c7d1-43ba-a39a-5b0ed0a9cc36" />
 
 Высветилась наша проблема
+
+## Тригер Аномально много NXDOMAIN (Warning)
+Для начала нужно добавить item
+
+<img width="1049" height="688" alt="image" src="https://github.com/user-attachments/assets/4cf0f113-c577-4c2f-9b12-2e31e393a6c1" />
+
+После этого пишeм trigger
+
+<img width="1048" height="697" alt="image" src="https://github.com/user-attachments/assets/6b1311b6-d00e-4803-b8b4-1f3c43808531" />
+
+
